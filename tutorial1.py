@@ -26,4 +26,6 @@ sess.run(init)   #very important 激活整个网络
 for step in range(201):
 	sess.run(train)
 	if step % 20 ==0:
-		print(step, sess.run(weights),sess.run(biases))
+		print(step, sess.run(weights),sess.run(biases))# pointers point weights and biases
+
+###create tensorflow structure end ###
